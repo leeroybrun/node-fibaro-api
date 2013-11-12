@@ -1,0 +1,23 @@
+{
+    "name": "fibaro-api",
+    "version": "0.1.0",
+    "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+    "description": "Interact with Fibaro Home Center API",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leeroybrun/node-fibaro-api.git"
+    },
+    "keywords": [
+        "fibaro",
+        "api"
+    ], 
+    "license": "MIT",
+    "dependencies" : {
+        "request": "*",
+        "async":   "*"
+    },
+    "engines": [
+        "node"
+    ],
+    "main": "./lib/fibaro.js"
+}
