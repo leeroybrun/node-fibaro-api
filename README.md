@@ -28,3 +28,5 @@ There is some shortcuts too :
 #### fibaro.api.devices.toggleValue(deviceId, callback)
 
 I will add shortcuts as needed, don't hesitate to add yours and send me a pull request. :-)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/leeroybrun/node-fibaro-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
