@@ -11,6 +11,13 @@ var Fibaro = require('fibaro-api');
 var fibaro = new Fibaro('xxx.xxx.xxx.xxx', 'username', 'password');
 ```
 
+Alternatively, to attempt auto discovery :
+```javascript
+Fibaro.discover(function(info) {
+    var fibaro = new Fibaro(info.ip, 'username', 'password');
+});
+```
+
 Make your calls :
 
 ```javascript
