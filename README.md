@@ -33,6 +33,8 @@ There is some shortcuts too :
 #### fibaro.api.devices.turnOn(deviceId, callback)
 #### fibaro.api.devices.turnOff(deviceId, callback)
 #### fibaro.api.devices.toggleValue(deviceId, callback)
+#### fibaro.api.scenes.start(sceneId, params, callback)
+#### fibaro.api.scenes.stop(sceneId, params, callback)
 
 I will add shortcuts as needed, don't hesitate to add yours and send me a pull request. :-)
 
